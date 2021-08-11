@@ -1,41 +1,49 @@
 * {
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
 
-.logo {
-    display: flex;
-}
-
-.logo img {
-    padding: 24px;
 }
 
 header {
     display: flex;
     background-color: white;
     height: 64px;
-    margin: 0%;
+    width: 100%;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width:auto;
+    height: 32px;
+}
+.logo h2 {
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 nav {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
-    padding-left: 24px;
+    justify-content: flex-end;    
 }
 
 nav > a {
-    padding: 16px;
     color: black;
+    padding-left: 16px;
     text-decoration: none;
 }
 
+/* start of Section 1 */
+
 .section1 {
     display: flex;
-    background-color: mistyrose;
-    padding: 30px 20px;
+    background-color: lightgrey;
+    padding: 32px 24px;
     align-items: center;
 }
 
@@ -44,104 +52,388 @@ nav > a {
 }
 
 .section1-content {
-    padding-left: 25px;
+    padding-left: 24px;
 }
 
-h1 {
-    font-size: 30px;
+.section1-content h1 {
+    font-size: 45px; 
     font-weight: bolder;
 }
 
+
 .section1-content h3 {
-    font-size: 12px;
+    font-size: 25px;
 }
 .section1-content a {
     display: block;
-    background-color: lightgray;
-    width: 40%;
+    background-color: rgb(46, 45, 45);
+    width: 80%;
     font-size: 14px;
-    font-weight: bolder;
     text-decoration: none;
     text-align: center;
-    padding: 12px;
-    color: black;
+    padding: 8px;
+    color: white;
 }
+/* end of section 1 */
+
+/* start of section 2 */
 
 .section2 {
-   display: flex;
+    display: flex;
+     background-color: white;
+     
+ }
+ .s2-leftcontent {
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+     padding: 32px 24px;
+ 
+ }
+ .s2-leftcontent h2 {
+     font-size:35px; 
+     font-weight:bolder; 
+     margin: 32px 0px 24px 0px;   
+ }
+ 
+ .s2-leftcontent h5 {
+     font-size:15px;
+     margin: 0px 0px 0px 0px;
+ }
+ .s2-leftcontent p{
+     font-size: 18px;
+     margin: 0px;
+     margin-bottom: 32px;
+ }
+
+ .s2-rightcontent {
+     display: flex;
+     flex-direction: column;
+     width: 40%;
+     
+ }
+.image2{
+        display: none;
+     }
+.image4{
+        display: none;
+     }
+.image6{
+        display: none;
+     }
+
+ #box1 {
+     padding: 32px 16px 16px 16px;
+ }
+ 
+ .s2-box {
+     display: flex;
+     padding: 16px 16px;
+     align-items: center;
+     
+ }
+ 
+ .s2-box a{
+     text-decoration: none;
+     color: rgb(57, 190, 235);
+     font-size: 15px;
+
+ }
+ 
+ .s2-box h3 {
+     font-size: 25px;
+     font-weight: bold;
+     margin: 8px 0px;
+ }
+ 
+ .s2-box p {
+     font-size: 15px;
+     margin: 8px 0px;
+ }
+ 
+ .s2-box img{
+     width:35%;
+     height: auto;
+     padding-right: 15px;
+ }
+/* end of section 2 */
+
+/* start of section 3 */
+
+.section3 {
+    background-color:lightgrey;
+    padding: 32px 72px;
+}
+.learningtitle {
+    display: none;
+}
+.section3-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.section3-title h2 {
+    margin: 0px 0px 32px;
+    font-size: 35px;
+    color:rgb(46, 45, 45);
+}
+
+.learning {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photobox {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
     background-color: white;
-    
+    margin-bottom: 32px;
+
 }
-.s2-leftcontent {
+.photobox h3{
+    margin: 16px 16px 0 16px;
+}
+
+.photobox h4{
+    margin: 8px 16px;
+    font-size: 15px;
+}
+
+#course {
+    margin: 8px 16px 0px 16px;
+}
+
+.photobox p{
+    margin: 8px 16px 24px 16px;
+    font-size: 15px;
+}
+
+.photobox img {
+    height: auto;
+}
+/* end of section 3 */
+
+/* start of section 4 */
+
+.section4 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+     
+ }
+ .section4-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 32px 0px 0px 0px;
+}
+.section4-title h2{
+    margin: 0px;
+    font-size: 35px;
+    color:rgb(46, 45, 45);
+}
+
+.section4-1 {
+    display: flex;
+    background-color: white;
+}
+ .s4-leftcontent {
     display: flex;
     flex-direction: column;
-    width: 65%;
-    padding: 25px 40px 5px;
-    padding-right: 70px;
-}
-.s2-leftcontent h2 {
-    font-size:18px; 
-    font-weight:bolder;    
-}
-
-.s2-leftcontent h5 {
-    font-size:15px;
-}
-.s2-leftcontent p{
-    font-size: 10px;
-    font-weight:bold;
+    width: 60%;
+    padding: 32px 24px;
 
 }
-
-.s2-leftcontent img{
-  flex-grow: 1;
-    
+.s4-leftcontent h3 {
+    font-size:25px; 
+    font-weight:bolder; 
+    margin: 32px 0px 24px 0px;   
 }
-.s2-rightcontent {
+
+.s4-leftcontent p{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.s4-rightcontent {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 40%;        
+}
+#box2 {
+    padding: 32px 16px 16px 16px;
+}
+.thesis {
+    display: flex;
+    padding: 16px 16px;
+    align-items: center;
+    
+}
+
+.thesis h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.thesis p {
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.thesis img{
+    width:35%;
+    height: auto;
+    padding-right: 15px;
+}
+/* end of section 4 */
+
+/* start of footer */
+footer {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 12px;
+}
+.copyright {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.copyright h3 {
+    font-weight: lighter;
+}
+
+.termsprivacy {
+    display: flex;
+    width:100%;
+    justify-content: flex-end; 
+ 
+}
+.termsprivacy a {
+    text-decoration: none;
+    padding-right: 16px;
+    color: black;
    
 }
-
-.s2-box {
-    display: flex;
-    padding:25px 10px 1px;
-    
-}
-
-.s2-box a{
-    text-decoration: none;
-    color:red;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-.s2-box h3 {
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.s2-box p {
-    font-size: 11px;
-    font-weight: bold;
-}
-
-.s2-box img{
-    width:35%;
-    padding-right: 5px;
-}
+/* end of footer */
 
 
-@media screen and (max-width: 800px) {
-    .logo {
+@media screen and (max-width: 570px) {
+    .logo h2{
         display: none;
+    }
+    .section1 img{
+        width: 100%;
+        height: auto;
     }
     .section1{
         flex-direction: column;
-
+        padding: 0px 0px;
+    }
+    .section1-content {
+        padding: 0px 16px;
+    }
+    .section1-content h1{
+        margin: 32px 0px;
+    }
+    .section1-content h3{
+        margin: 0px;
+    }
+    .section1-content a {
+        width:auto;
+        margin: 24px 0px 32px 0px;
+    }
+    .s2-leftcontent {
+        display: none;
     }
     .s2-rightcontent {
-       flex-flow: column wrap; 
+        width: 100%;
     }
-}/**/
+    /* #box1 {
+        display: none;
+    } */
+    .s2-box {   
+        flex-direction:column;
+        justify-content:space-around;
+        align-items: flex-start;
+        padding: 16px 16px 32px 16px;    
+    }
+
+    .s2-box img {
+        width: 100%;
+    }
+
+    .image1{
+         display: none;
+    }
+    
+    .image2{
+         display: block;
+       }
+    .image3{
+         display: none;
+    }
+    
+    .image4{
+         display: block;
+       }
+    .image5{
+        display: none;
+    }
+   
+   .image6{
+        display: block;
+    }
+
+    .photobox  {
+        display: none;
+    }
+    .section3 {
+        padding: 0px;
+    }
+    .section3-title {
+        padding: 32px 0px 16px 0px;
+    }
+    .learningtitle {
+       display: block;
+    }
+    .learningtitle a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        background-color: grey;
+        font-size:30px;
+        padding: 16px 16px 24x;
+        margin-bottom: 8px;
+        text-align: left;
+           
+    }
+    .s4-leftcontent{
+        width: 100%;
+        padding: 16px 0px 24px 0px;
+    }
+
+    .s4-leftcontent h3,p {
+        display: none;
+    }
+
+    .s4-rightcontent {
+        display: none;
+    }
+
+    .copyright {
+        padding: 16px 0px;
+    } 
+
+    .termsprivacy {
+        display: none;
+    }
+} 

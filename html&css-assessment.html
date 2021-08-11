@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Practice 4</title>
+    <title>HTML & CSS Assessment</title>
     <link rel="stylesheet" href="css/html&css-assessment.css">
 </head>
 <body>
     <header>
     <div class="logo">
-        <img src="images/ic-logo.svg">
-        <h2 class="titleMennu">COLMARACADEMY </h2>
+        <img src="capstone_colmar_assets/images/ic-logo.svg">
+        <h2 class="titleMennu">COLMAR<span style="color:grey;">ACADEMY</span></h2>
     </div>
 
         <nav>
@@ -25,27 +25,29 @@
     </header>
 
     <section class="section1">
-        <img src="images/banner.jpg">
+        <img src="capstone_colmar_assets/images/banner.jpg">
         <div class="section1-content">
             <h1> Learn something new everyday </h1>
-            <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+            <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <a href="#">Start here</a>
         </div>
     </section>
 
     <section class="section2">
-        <div class="s2-leftcontent">
-            <img src="images/information-main.jpg">
-            <h2>It doesn't hurt to keep practicing</h2>
+         <div class="s2-leftcontent">
+            <img src="capstone_colmar_assets/images/information-main.jpg">
+           <h2>It doesn't hurt to keep practicing</h2>
             <p> "Curabitur vitae libero ipsum porttior consequat. Aliquam et commodo lectus,
             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. 
             Etiameget magna laoreet efficitur dolo consequat, tristique ligula." </p>
             <h5> Emaunuel, Sr Strategist at Hiring.com<h5>
         </div>
 
-        <div class=S2-rightcontent> 
-            <div class="s2-box">
-                <img src="images/information-orientation.jpg">
+         <div class="s2-rightcontent">
+            <div class="s2-box" id="box1">
+                <img src="capstone_colmar_assets/images/information-orientation.jpg" class="image1"/>
+                <img src="capstone_colmar_assets/images/information-orientation-mobile.jpg" class="image2"/>
+                
                 <div>
                     <h3>Orientation Date</h3>
                     <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -54,86 +56,137 @@
             </div>
 
             <div class="s2-box">
-                <img src="images/information-campus.jpg">
+                <img src="capstone_colmar_assets/images/information-campus.jpg" class="image3">
+                <img src="capstone_colmar_assets/images/information-campus-mobile.jpg" class="image4">
                 <div>
-                 <h3>Our Campus</h3>
-                 <p>Find a campus near you<p>
-                 <a href="#">Read more</a>
+                    <h3>Our Campus</h3>
+                    <p>Find a campus near you<p>
+                    <a href="#">Read more</a>
                 </div>
             </div>
 
             <div class="s2-box">
-                <img src="images/information-guest-lecture.jpg">
+                <img src="capstone_colmar_assets/images/information-guest-lecture.jpg" class="image5">
+                <img src="capstone_colmar_assets/images/information-guest-lecture-mobile.jpg" class="image6">
                 <div>
-                 <h3>Our guest lecture</h3>
-                  <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
-                  <a href="#">Read more</a>
+                     <h3>Our guest lecture</h3>
+                    <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
+                    <a href="#">Read more</a>
                  </div>
             </div>
         </div>
     </section>
 
     <section class="section3">
+
         <div class="section3-title">
             <h2>Start learning</h2>
         </div>
+
+        <div class="learningtitle">
+            <div>
+            <a href="#">Software engineering</a>
+            </div>
+            <div>
+            <a href="#">Computer art</a>
+            </div>
+            <div>
+            <a href="#">Design</a>
+            </div>
+            <div>
+            <a href="#">Data</a>
+            </div>
+            <div>
+            <a href="#">Business</a>
+            </div>
+        </div> 
+
+        <div class="learning">
         <div class="photobox">
-            <img src="images/course-software.jpg">
+            <img src="capstone_colmar_assets/images/course-software.jpg">
             <h3>Software engineering</h3>
-            <p>COURSES</p>
+            <p id="course">COURSES</p>
             <P>Web Development, Mobile Development, iOT, APIs</P>
           </div>
           <div class="photobox">
-            <img src="images/course-computer-art.jpg">
+            <img src="capstone_colmar_assets/images/course-computer-art.jpg">
             <h3>Computer art</h3>
-            <p>COURSES</p>
+            <p id="course">COURSES</p>
             <P>Imaging & Deign, Web Design, Motion Graphics & Visual Effects, Computer Animation</P>
           </div>
           <div class="photobox">
-            <img src="images/course-design.jpg">
+            <img src="capstone_colmar_assets/images/course-design.jpg">
             <h3>Design</h3>
-            <p>COURSES</p>
+            <p id="course">COURSES</p>
             <P>User Experience Design, User Research, Visual Design</P>
           </div>
           <div class="photobox">
-            <img src="images/course-data.jpg">
+            <img src="capstone_colmar_assets/images/course-data.jpg">
             <h3>Data</h3>
-            <p>COURSES</p>
+            <p id="course">COURSES</p>
             <P>Data Science, Big Data, SQL, Data Visualization</P>
           </div>
           <div class="photobox">
-            <img src="images/course-business.jpg">
+            <img src="capstone_colmar_assets/images/course-business.jpg">
             <h3>Business</h3>
-            <p>COURSES</p>
+            <p id="course">COURSES</p>
             <P>Product Development, Business Development, Startup</P>
           </div>
           <div class="photobox">
-            <img src="images/course-marketing.jpg">
+            <img src="capstone_colmar_assets/images/course-marketing.jpg">
             <h3>Marketing</h3>
-            <p>COURSES</p>
+            <p id="course">COURSES</p>
             <P>Analytics, Content Marketing, Mobile Marketing/P>
+          </div>
           </div>
     </section>
 
     <section class="section4">
+
         <div class="section4-title">
             <h2>Thesis exhibit</h2>
         </div>
-        <div class=
-        <video src="/capstone_colmar_assets/videos/thesis.mp4">
+
+        <div class="section4-1">
+        <div class="s4-leftcontent">
+            <video src="capstone_colmar_assets/videos/thesis.mp4">
             Video not supported
-        </video>
-        <div class="thesis1">
-            <img src="images/thesis-fisma.jpg">
+            </video>
+            <h3>Reimagine urban</h2>
+            <p> "Curabitur vitae libero ipsum porttior consequat. Aliquam et commodo lectus,
+            nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. 
+            Etiameget magna laoreet efficitur dolo consequat, tristique ligula." </p>
+        </div>
+
+        <div class="s4-rightcontent">
+        <div class="thesis" id="box2">
+            <img src="capstone_colmar_assets/images/thesis-fisma.jpg">
+            <div>
             <h3>Fisma: Design and Prototype</h3>
             <p>Designer showcase of new prototype product</p>
+            </div>
         </div>
-        <div class="thesis2">
-            <img src="images/thesis-now-and-then.jpg">
+
+        <div class="thesis">
+            <img src="capstone_colmar_assets/images/thesis-now-and-then.jpg">
+            <div>
             <h3>Now and then</h3>
             <p>Research study about New York</p>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
+
+    <footer>
+        <div class="copyright">
+            <h3>&copy 2016 Colmar Academy. All rights reserved</h3>
+        </div>
+        <div class="termsprivacy">      
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+        </div>
+    </footer>
 
 </body>
 </html>
